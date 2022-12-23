@@ -80,6 +80,7 @@ house_prices_kaggle
           |-- notebooks --> Some notebook's older versions
     |-- House_Prices_Kaggle.ipynb  --> Oficial notebook which contains all develop
     |-- submission.csv --> File which was submitted to the Kaggle's competition
+    |-- requirements.txt --> libraries to be install
 
 ```
 The structure of the notebook is as follows:
