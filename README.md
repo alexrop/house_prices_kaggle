@@ -25,7 +25,7 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
   - MSE
   - MAE log 
 
-For more info about these metrics, check this [post](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9](https://towardsdatascience.com/what-are-the-best-metrics-to-evaluate-your-regression-model-418ca481755b](https://towardsdatascience.com/what-are-the-best-metrics-to-evaluate-your-regression-model-418ca481755b).
+For more info about these metrics, check this [post](https://towardsdatascience.com/what-are-the-best-metrics-to-evaluate-your-regression-model-418ca481755b).
 
 # Installation <a name="installation"></a>
 
@@ -53,8 +53,10 @@ This project uses Python 3.9.13. The following libraries are necessary for runni
 
 2. Run the notebook *House_Prices_Kaggle.ipynb*
 
+  - You should adapt the notebook to your own environment. For example I import/export files by using my local path (windows and user), so you should change it by your own.
+  - All 6 models are in the same notebook, where 3 of them have hyperparameters tuninng with optuna, so if you *run all* it could take a while. I recomend to run it by parts
 > I highly recommend working on virtual environments as [conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment) or [venv](https://docs.python.org/3.6/library/venv.html) 
-> All 6 models are in the same notebook, where 3 of them have hyperparameters tuninng with optuna, so if you *run all* it could take a while. I recomend to run it by parts
+
 
 
 # Project Motivation <a name="motivation"></a>
