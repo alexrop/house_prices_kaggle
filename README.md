@@ -95,7 +95,7 @@ The structure of the notebook is as follows:
 
 # Results <a name="results"></a>
 
-The best model was a **Catboost - Basic parameters* and below are its metrics.
+The best model was a **Catboost - Basic parameters** and below are its metrics.
 
 
 | RMSE | R2 |	MAE | MSE | MAE log | 
